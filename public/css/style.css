@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 70vh;
+    width: 80vw;
+    /* width: 80%; */
+    margin: 0 auto;
+    background-color: #edf1fd;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+
+    top: 0;
+    left: 0;
+    height: 15%;
+    box-sizing: border-box;
+    padding: 0px 40px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+nav ul li {
+    padding: 0 50px;
+}
+
+nav a:visited,
+nav a:link {
+    color: #040404;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #040404;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.profile {
+    position: relative;
+    width: 30vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    /*  border-radius: 3px; */
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile img {
+    position: absolute;
+    width: 35%;
+    left: 30%;
+    top: 2%;
+}
+
+.profile article {
+    position: absolute;
+    top: 22%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 18px;
+    left: 20%;
+}
+
+.profile .name {
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.profile .name span {
+    font-weight: 600;
+}
+
+.job {
+    position: absolute;
+    background-color: bisque;
+    border-radius: 5px;
+    width: 80%;
+    top: 40px;
+    left: 9%;
+}
+
+.job h3 {
+    text-align: center;
+    text-transform: capitalize;
+    padding: 2px;
+    font-size: 16px;
+}
+
+.socials {
+    position: relative;
+    top: 60px;
+    left: 15px;
+}
+
+.facebook img {
+    /* top: 70px; */
+    width: 25px;
+    /*  left: 25%; */
+}
+
+.twitter img {
+    /* top: 70px; */
+    width: 25px;
+    margin: 0 40px;
+    /* left: 45%; */
+}
+
+.details {
+    font-size: 17px;
+}
+
+.calendar {
+    position: absolute;
+    top: 160px;
+}
+
+.calendar img {
+    width: 25px;
+    left: 0;
+}
+
+.calendar h3 {
+    width: 80%;
+    margin: 0 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.address {
+    position: absolute;
+    top: 220px;
+}
+
+.address img {
+    width: 25px;
+    left: 0;
+}
+
+.address h3 {
+    width: 80%;
+    margin: 0 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.mail {
+    position: absolute;
+    top: 280px;
+}
+
+.mail img {
+    width: 25px;
+    left: 0;
+}
+
+.mail h3 {
+    width: 80%;
+    margin: 0 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.phone {
+    position: absolute;
+    top: 340px;
+}
+
+.phone img {
+    width: 25px;
+    left: 0;
+}
+
+.phone h3 {
+    width: 100%;
+    margin: 0 40px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.about-me {
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    width: 40vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.about-me h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.about-me p {
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.services {
+    position: absolute;
+    top: 380px;
+    left: 600px;
+    width: 40vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.services > h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.design {
+    border: 5px solid #fff;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.services img {
+    width: 60px;
+}
+
+.dev {
+    position: absolute;
+    top: 60px;
+    left: 280px;
+    width: 40vw;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.form {
+    position: absolute;
+    top: 150px;
+    margin: 0 320px 0 320px;
+    width: 40%;
+}
